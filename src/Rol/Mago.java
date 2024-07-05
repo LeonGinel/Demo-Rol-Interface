@@ -2,12 +2,12 @@ package Rol;
 
 public class Mago extends Profesion{
 	
-	// Constructor vacío
+	// CONSTRUCTOR
 	public Mago() {
 		super("Mago", 1, "D4");
 	}
 	
-	// Metodos de ataque y defensa
+	// MÉTODOS
 	public void ataqueMagico() {
 			
 	}
@@ -15,6 +15,7 @@ public class Mago extends Profesion{
 	public void defensaMagica() {
 			
 	}
+	
 	@Override
 	public String toString() {
 		return this.getNombre() + "\n" + this.getNivel() + "\n" + this.getDadovida();

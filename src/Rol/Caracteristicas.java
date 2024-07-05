@@ -25,20 +25,19 @@ public class Caracteristicas {
 		
 		}
 	
-	// Constructor base (SIGUIENTE EJERCICIO)!!!!
-	
-	/*public Caracteristicas(int fuerza, int destreza, int constitucion, int inteligencia, int sabiduria, int carisma, int vida, int defensa) {
+	// Constructor base
+	public Caracteristicas(int fuerza, int destreza, int constitucion, int inteligencia, int sabiduria, int carisma, int vida, int defensa) {
 		super();
-		this.setFuerza(getFuerza());
-		this.setDestreza(getDestreza());
-		this.setConstitucion(getConstitucion());
-		this.setInteligencia(getInteligencia());
-		this.setSabiduria(getSabiduria());
-		this.setCarisma(getCarisma());
+		this.fuerza = 0;
+		this.destreza = 0;
+		this.constitucion = 0;
+		this.inteligencia = 0;
+		this.sabiduria = 0;
+		this.carisma = 0;
 		
-		this.setVida(vida);
-		this.setDefensa(defensa);
-	}*/
+		this.vida = vida;
+		this.defensa = defensa;
+	}
 	
 	// Getters y Setters
 	public int getFuerza() {
@@ -115,6 +114,8 @@ public class Caracteristicas {
 		this.setSabiduria(Dado.tiradaCaract(4, 6));
 		this.setCarisma(Dado.tiradaCaract(4, 6));
 	}
+	
+	// El toString correspondiente
 	@Override
 	public String toString() {
 		return "Fue: " + this.getFuerza() + "\n" +

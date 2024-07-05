@@ -2,12 +2,12 @@ package Rol;
 
 public class Guerrero extends Profesion{
 	
-	// Constructor vacío
+	// CONTRUCTOR
 	public Guerrero() {
 		super("Guerrero", 1, "D10");
 	}
 
-	// Metodos de ataque y defensa
+	// MÉTODOS
 	public void ataqueFisico() {
 		
 	}
@@ -15,6 +15,7 @@ public class Guerrero extends Profesion{
 	public void defensaFisica() {
 		
 	}
+	
 	@Override
 	public String toString() {
 		return this.getNombre() + "\n" + this.getNivel() + "\n" + this.getDadovida();

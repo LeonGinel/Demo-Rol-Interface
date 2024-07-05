@@ -2,24 +2,24 @@ package Rol;
 
 public class Raza {
 	
-	// Atributos
+	// ATRIBUTOS
 	private String nombre;
 	private String caracteristicaBonificacion;
 	private int bonificador;
 	
-	// Constructor vacío
+	// CONTRUCTORES
 	public Raza() {
 		super();
 	}
 	
-	// Constructor
 	public Raza(String nombre, String caracteristicaBonificacion, int bonificador) {
 		super();
-		this.nombre =nombre;
+		this.nombre = nombre;
 		this.caracteristicaBonificacion = caracteristicaBonificacion;
 		this.bonificador = bonificador;
 	}
 
+	// GETTERS AND SETTERS
 	public String getNombre() {
 		return nombre;
 	}
@@ -44,7 +44,7 @@ public class Raza {
 		this.bonificador = bonificador;
 	}
 	
-	//toString override
+	// MÉTODO toString
 	@Override
 	public String toString() {
 		return this.getNombre() + "\n" + this.getCaracteristicaBonificacion() + ": " + this.getBonificador();

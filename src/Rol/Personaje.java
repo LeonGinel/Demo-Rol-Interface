@@ -2,14 +2,14 @@ package Rol;
 
 public class Personaje {
 	
-	// Atributos
+	// ATRIBUTOS
 	private String nombre;
 	private Caracteristicas caracteristicas;
 	private Profesion profesion;
 	private Raza raza;
 	private Boolean jugador;
 	
-	// Constructores 
+	// CONTRUCTORES 
 	public Personaje() {
 		super();
 	}
@@ -30,6 +30,7 @@ public class Personaje {
 		this.jugador = jugador;
 	}
 
+	// GETTERS AND SETTERS
 	public String getNombre() {
 		return nombre;
 	}
@@ -70,7 +71,7 @@ public class Personaje {
 		this.jugador = jugador;
 	}
 	
-	//toString override
+	// MÉTODO toString
 	@Override
 	public String toString() {
 		return "Nombre: " + this.getNombre() + "\n" + 

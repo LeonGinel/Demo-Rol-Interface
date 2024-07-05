@@ -3,17 +3,20 @@ package Rol;
 import java.util.ArrayList;
 
 public class Listas {
+	
+	// ATRIBUTOS
     private ArrayList<Raza> razas;
     private ArrayList<Personaje> pjs;
     private ArrayList<Personaje> pnjs;
 
+    // CONTRUCTOR
     public Listas() {
         razas = new ArrayList<>();
         pjs = new ArrayList<>();
         pnjs = new ArrayList<>();
     }
 
-    // Métodos para acceder y modificar las listas de razas, pjs y pnjs
+    // GETTERS AND SETTERS
     public ArrayList<Raza> getRazas() {
         return razas;
     }
@@ -38,5 +41,5 @@ public class Listas {
         this.pnjs = pnjs;
     }
     
-    Listas listaRazas = new Listas();
+    //Listas listaRazas = new Listas();
 }

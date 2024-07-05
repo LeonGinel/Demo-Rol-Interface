@@ -2,25 +2,24 @@ package Rol;
 
 public abstract class Profesion {
 	
-	// Atributos
+	// ATRIBUTOS
 	private String nombre;
 	private int nivel;
 	private String dadovida;
 	
-	// Constructor vacío
+	// CONTRUCTORES
 	public Profesion() {
 		super();
 		
 	}
-	
-	// Constructor
+
 	public Profesion(String nombre, int nivel, String dadovida) {
 		this.nombre = nombre;
 		this.nivel = nivel;
 		this.dadovida = dadovida;
 	}
 	
-	// Getters y Setters
+	// GETTERS AND SETTERS
 	public String getNombre() {
 		return nombre;
 	}
@@ -44,6 +43,8 @@ public abstract class Profesion {
 	public void setDadovida(String dadovida) {
 		this.dadovida = dadovida;
 	}
+	
+	// MÉTODO toString
 	@Override
 	public String toString() {
 		return this.getNivel() + "\n" + this.getDadovida();
