@@ -6,8 +6,8 @@ A small demo of an application GUI developed with Java (Good programming logic a
 - **Swing**: Estructura y diseño de la interfaz de usuario
 
 ## Capturas de Pantalla
-![Pantalla principal](Media/ImgInterfaz_Rol.jpg)
-![Pantalla principal](Media/ImgFormularioRaza.jpg)
-![Pantalla principal](Media/ImgFormularioPj.jpg)
-![Pantalla principal](Media/ImgFormularioPnj.jpg)
-![Pantalla principal](Media/ImgVisualizar.jpg).
+![Pantalla principal](Media/RolPincipal.jpg)
+![Pantalla principal](Media/RolRaza.jpg)
+![Pantalla principal](Media/RolPj.jpg)
+![Pantalla principal](Media/RolPnj.jpg)
+![Pantalla principal](Media/RolVisualizar.jpg).
