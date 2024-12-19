@@ -65,7 +65,7 @@ public class FormularioPnj extends JFrame {
 		textField.setBounds(146, 142, 170, 28);
 		contentPane.add(textField);
 		
-		JLabel lblClase = new JLabel("Clase:");
+		JLabel lblClase = new JLabel("Raza:");
 		lblClase.setForeground(new Color(255, 255, 255));
 		lblClase.setFont(new Font("Yu Gothic UI", Font.BOLD, 22));
 		lblClase.setBounds(207, 217, 67, 37);
@@ -78,10 +78,10 @@ public class FormularioPnj extends JFrame {
 		comboBoxClase.addItem("Mago");
 		comboBoxClase.addItem("Guerrero");
 		
-		JLabel lblRaza = new JLabel("Raza:");
+		JLabel lblRaza = new JLabel("Clase:");
 		lblRaza.setForeground(new Color(255, 255, 255));
 		lblRaza.setFont(new Font("Yu Gothic UI", Font.BOLD, 22));
-		lblRaza.setBounds(207, 337, 56, 37);
+		lblRaza.setBounds(207, 337, 67, 37);
 		contentPane.add(lblRaza);
 		
 		JComboBox<String> comboBoxRaza = new JComboBox<>();
