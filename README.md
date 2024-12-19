@@ -1,5 +1,5 @@
 # Demo-Rol-Interface
-A small demo of an application GUI developed with Java (Good programming logic and OOP) and Swing (GUI)
+Una pequeña demo de una Interfaz de usuario de un app (GUI) desarrollada con Java (Buena lógica de programación y POO) y Swing (GUI)
 
 ## Tecnologías utilizadas
 - **JAVA**: Lógica de programación y POO
